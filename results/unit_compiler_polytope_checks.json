@@ -1,0 +1,206 @@
+[
+  {
+    "case": "simplex",
+    "unit_grid": [
+      16,
+      34,
+      22
+    ],
+    "unit_support": 141,
+    "unit_rank": 139,
+    "vertices": [
+      {
+        "root_values": [
+          "1",
+          "0",
+          "0"
+        ],
+        "positive_entries": 70,
+        "vertex": true
+      },
+      {
+        "root_values": [
+          "0",
+          "1",
+          "0"
+        ],
+        "positive_entries": 70,
+        "vertex": true
+      },
+      {
+        "root_values": [
+          "0",
+          "0",
+          "1"
+        ],
+        "positive_entries": 70,
+        "vertex": true
+      }
+    ],
+    "subdivided_grid": [
+      72,
+      210,
+      141
+    ],
+    "subdivided_support": 846,
+    "subdivided_rank": 844,
+    "subdivided_degree": [
+      3,
+      2,
+      2
+    ],
+    "implicit_structural_zeros": true
+  },
+  {
+    "case": "square",
+    "unit_grid": [
+      22,
+      58,
+      38
+    ],
+    "unit_support": 236,
+    "unit_rank": 234,
+    "vertices": [
+      {
+        "root_values": [
+          "0",
+          "0"
+        ],
+        "positive_entries": 118,
+        "vertex": true
+      },
+      {
+        "root_values": [
+          "0",
+          "1"
+        ],
+        "positive_entries": 118,
+        "vertex": true
+      },
+      {
+        "root_values": [
+          "1",
+          "0"
+        ],
+        "positive_entries": 118,
+        "vertex": true
+      },
+      {
+        "root_values": [
+          "1",
+          "1"
+        ],
+        "positive_entries": 118,
+        "vertex": true
+      }
+    ],
+    "subdivided_grid": [
+      118,
+      354,
+      236
+    ],
+    "subdivided_support": 1416,
+    "subdivided_rank": 1414,
+    "subdivided_degree": [
+      2,
+      2,
+      2
+    ],
+    "implicit_structural_zeros": true
+  },
+  {
+    "case": "pentagon",
+    "unit_grid": [
+      91,
+      247,
+      161
+    ],
+    "unit_support": 1015,
+    "unit_rank": 1013,
+    "vertices": [
+      {
+        "root_values": [
+          "0",
+          "0",
+          "1/2",
+          "0",
+          "0",
+          "0",
+          "1/4",
+          "3/4"
+        ],
+        "positive_entries": 718,
+        "vertex": true
+      },
+      {
+        "root_values": [
+          "1",
+          "0",
+          "1/2",
+          "1/2",
+          "0",
+          "1/2",
+          "1/4",
+          "1/4"
+        ],
+        "positive_entries": 872,
+        "vertex": true
+      },
+      {
+        "root_values": [
+          "1",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/4",
+          "3/4",
+          "1/4",
+          "0"
+        ],
+        "positive_entries": 967,
+        "vertex": true
+      },
+      {
+        "root_values": [
+          "1/2",
+          "1",
+          "1/2",
+          "1/4",
+          "1/2",
+          "3/4",
+          "1/4",
+          "0"
+        ],
+        "positive_entries": 967,
+        "vertex": true
+      },
+      {
+        "root_values": [
+          "0",
+          "1",
+          "1/2",
+          "0",
+          "1/2",
+          "1/2",
+          "1/4",
+          "1/4"
+        ],
+        "positive_entries": 872,
+        "vertex": true
+      }
+    ],
+    "subdivided_grid": [
+      499,
+      1515,
+      1015
+    ],
+    "subdivided_support": 6090,
+    "subdivided_rank": 6088,
+    "subdivided_degree": [
+      3,
+      2,
+      2
+    ],
+    "implicit_structural_zeros": true
+  }
+]

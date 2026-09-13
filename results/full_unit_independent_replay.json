@@ -1,0 +1,42 @@
+[
+  {
+    "file": "full_unit_core_3.json",
+    "order": 8,
+    "m": 3,
+    "dimension": 0,
+    "added_private_columns": 52,
+    "all_margins_one": true,
+    "denominator_preserved": true,
+    "result": "PASS"
+  },
+  {
+    "file": "full_unit_pentagon.json",
+    "order": 494,
+    "m": 4,
+    "dimension": 2,
+    "added_private_columns": 243531,
+    "all_margins_one": true,
+    "denominator_preserved": true,
+    "result": "PASS"
+  },
+  {
+    "file": "full_unit_rp2.json",
+    "order": 6,
+    "m": 2,
+    "dimension": 0,
+    "added_private_columns": 28,
+    "all_margins_one": true,
+    "denominator_preserved": true,
+    "result": "PASS"
+  },
+  {
+    "file": "full_unit_torsion_97.json",
+    "order": 644,
+    "m": 97,
+    "dimension": 0,
+    "added_private_columns": 414078,
+    "all_margins_one": true,
+    "denominator_preserved": true,
+    "result": "PASS"
+  }
+]

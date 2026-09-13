@@ -1,0 +1,2288 @@
+[
+  {
+    "grid": [
+      11,
+      29,
+      19
+    ],
+    "counts": [
+      59,
+      177,
+      118
+    ],
+    "denominator": 2,
+    "rank_Q": 118,
+    "dimension": 0,
+    "rank_at_denominator": 117,
+    "max_line_degrees": [
+      2,
+      2,
+      2
+    ],
+    "variable_values": [
+      "1/2"
+    ],
+    "literal_equations": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "reduced_matrix": [
+      [
+        2
+      ]
+    ],
+    "reduced_rhs": [
+      1
+    ],
+    "reduced_smith": [
+      2
+    ],
+    "full_torsion_smith": [
+      2
+    ],
+    "pieces": [
+      {
+        "variable": 0,
+        "ports": 2,
+        "triangles": 118
+      }
+    ],
+    "checked": "exact unit margins, injective triangle map, only intended edge merges, Q column independence"
+  },
+  {
+    "grid": [
+      16,
+      46,
+      30
+    ],
+    "counts": [
+      92,
+      282,
+      189
+    ],
+    "denominator": 3,
+    "rank_Q": 189,
+    "dimension": 0,
+    "rank_at_denominator": 188,
+    "max_line_degrees": [
+      3,
+      3,
+      3
+    ],
+    "variable_values": [
+      "1/3"
+    ],
+    "literal_equations": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "reduced_matrix": [
+      [
+        3
+      ]
+    ],
+    "reduced_rhs": [
+      1
+    ],
+    "reduced_smith": [
+      3
+    ],
+    "full_torsion_smith": [
+      3
+    ],
+    "pieces": [
+      {
+        "variable": 0,
+        "ports": 3,
+        "triangles": 189
+      }
+    ],
+    "checked": "exact unit margins, injective triangle map, only intended edge merges, Q column independence"
+  },
+  {
+    "grid": [
+      27,
+      75,
+      49
+    ],
+    "counts": [
+      151,
+      459,
+      307
+    ],
+    "denominator": 4,
+    "rank_Q": 307,
+    "dimension": 0,
+    "rank_at_denominator": null,
+    "max_line_degrees": [
+      3,
+      3,
+      3
+    ],
+    "variable_values": [
+      "1/4",
+      "1/2"
+    ],
+    "literal_equations": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "reduced_matrix": [
+      [
+        2,
+        -1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "reduced_rhs": [
+      0,
+      1
+    ],
+    "reduced_smith": [
+      1,
+      4
+    ],
+    "full_torsion_smith": [
+      4
+    ],
+    "pieces": [
+      {
+        "variable": 0,
+        "ports": 2,
+        "triangles": 118
+      },
+      {
+        "variable": 1,
+        "ports": 3,
+        "triangles": 189
+      }
+    ],
+    "checked": "exact unit margins, injective triangle map, only intended edge merges, Q column independence"
+  },
+  {
+    "grid": [
+      32,
+      92,
+      60
+    ],
+    "counts": [
+      184,
+      564,
+      378
+    ],
+    "denominator": 5,
+    "rank_Q": 378,
+    "dimension": 0,
+    "rank_at_denominator": 377,
+    "max_line_degrees": [
+      3,
+      3,
+      3
+    ],
+    "variable_values": [
+      "1/5",
+      "2/5"
+    ],
+    "literal_equations": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "reduced_matrix": [
+      [
+        2,
+        -1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "reduced_rhs": [
+      0,
+      1
+    ],
+    "reduced_smith": [
+      1,
+      5
+    ],
+    "full_torsion_smith": [
+      5
+    ],
+    "pieces": [
+      {
+        "variable": 0,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 1,
+        "ports": 3,
+        "triangles": 189
+      }
+    ],
+    "checked": "exact unit margins, injective triangle map, only intended edge merges, Q column independence"
+  },
+  {
+    "grid": [
+      48,
+      138,
+      90
+    ],
+    "counts": [
+      276,
+      846,
+      567
+    ],
+    "denominator": 7,
+    "rank_Q": 567,
+    "dimension": 0,
+    "rank_at_denominator": 566,
+    "max_line_degrees": [
+      3,
+      3,
+      3
+    ],
+    "variable_values": [
+      "1/7",
+      "2/7",
+      "3/7"
+    ],
+    "literal_equations": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          -1
+        ]
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "reduced_matrix": [
+      [
+        2,
+        -1,
+        0
+      ],
+      [
+        1,
+        1,
+        -1
+      ],
+      [
+        1,
+        0,
+        2
+      ]
+    ],
+    "reduced_rhs": [
+      0,
+      0,
+      1
+    ],
+    "reduced_smith": [
+      1,
+      1,
+      7
+    ],
+    "full_torsion_smith": null,
+    "pieces": [
+      {
+        "variable": 0,
+        "ports": 4,
+        "triangles": 260
+      },
+      {
+        "variable": 1,
+        "ports": 2,
+        "triangles": 118
+      },
+      {
+        "variable": 2,
+        "ports": 3,
+        "triangles": 189
+      }
+    ],
+    "checked": "exact unit margins, injective triangle map, only intended edge merges, Q column independence"
+  },
+  {
+    "grid": [
+      43,
+      121,
+      79
+    ],
+    "counts": [
+      243,
+      741,
+      496
+    ],
+    "denominator": 8,
+    "rank_Q": 496,
+    "dimension": 0,
+    "rank_at_denominator": null,
+    "max_line_degrees": [
+      3,
+      3,
+      3
+    ],
+    "variable_values": [
+      "1/8",
+      "1/4",
+      "1/2"
+    ],
+    "literal_equations": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          -1
+        ]
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    ],
+    "reduced_matrix": [
+      [
+        2,
+        -1,
+        0
+      ],
+      [
+        0,
+        2,
+        -1
+      ],
+      [
+        0,
+        0,
+        2
+      ]
+    ],
+    "reduced_rhs": [
+      0,
+      0,
+      1
+    ],
+    "reduced_smith": [
+      1,
+      1,
+      8
+    ],
+    "full_torsion_smith": null,
+    "pieces": [
+      {
+        "variable": 0,
+        "ports": 2,
+        "triangles": 118
+      },
+      {
+        "variable": 1,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 2,
+        "ports": 3,
+        "triangles": 189
+      }
+    ],
+    "checked": "exact unit margins, injective triangle map, only intended edge merges, Q column independence"
+  },
+  {
+    "grid": [
+      64,
+      184,
+      120
+    ],
+    "counts": [
+      368,
+      1128,
+      756
+    ],
+    "denominator": 11,
+    "rank_Q": 756,
+    "dimension": 0,
+    "rank_at_denominator": 755,
+    "max_line_degrees": [
+      3,
+      3,
+      3
+    ],
+    "variable_values": [
+      "1/11",
+      "2/11",
+      "4/11",
+      "5/11"
+    ],
+    "literal_equations": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          -1
+        ]
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          -1
+        ]
+      ],
+      [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "reduced_matrix": [
+      [
+        2,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        -1,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        -1
+      ],
+      [
+        1,
+        0,
+        0,
+        2
+      ]
+    ],
+    "reduced_rhs": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "reduced_smith": [
+      1,
+      1,
+      1,
+      11
+    ],
+    "full_torsion_smith": null,
+    "pieces": [
+      {
+        "variable": 0,
+        "ports": 4,
+        "triangles": 260
+      },
+      {
+        "variable": 1,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 2,
+        "ports": 2,
+        "triangles": 118
+      },
+      {
+        "variable": 3,
+        "ports": 3,
+        "triangles": 189
+      }
+    ],
+    "checked": "exact unit margins, injective triangle map, only intended edge merges, Q column independence"
+  },
+  {
+    "grid": [
+      64,
+      184,
+      120
+    ],
+    "counts": [
+      368,
+      1128,
+      756
+    ],
+    "denominator": 13,
+    "rank_Q": 756,
+    "dimension": 0,
+    "rank_at_denominator": 755,
+    "max_line_degrees": [
+      3,
+      3,
+      3
+    ],
+    "variable_values": [
+      "1/13",
+      "2/13",
+      "3/13",
+      "6/13"
+    ],
+    "literal_equations": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          -1
+        ]
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -1
+        ]
+      ],
+      [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "reduced_matrix": [
+      [
+        2,
+        -1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        -1
+      ],
+      [
+        1,
+        0,
+        0,
+        2
+      ]
+    ],
+    "reduced_rhs": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "reduced_smith": [
+      1,
+      1,
+      1,
+      13
+    ],
+    "full_torsion_smith": null,
+    "pieces": [
+      {
+        "variable": 0,
+        "ports": 4,
+        "triangles": 260
+      },
+      {
+        "variable": 1,
+        "ports": 2,
+        "triangles": 118
+      },
+      {
+        "variable": 2,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 3,
+        "ports": 3,
+        "triangles": 189
+      }
+    ],
+    "checked": "exact unit margins, injective triangle map, only intended edge merges, Q column independence"
+  },
+  {
+    "grid": [
+      112,
+      322,
+      210
+    ],
+    "counts": [
+      644,
+      1974,
+      1323
+    ],
+    "denominator": 31,
+    "rank_Q": 1323,
+    "dimension": 0,
+    "rank_at_denominator": 1322,
+    "max_line_degrees": [
+      3,
+      3,
+      3
+    ],
+    "variable_values": [
+      "1/31",
+      "2/31",
+      "3/31",
+      "6/31",
+      "7/31",
+      "14/31",
+      "15/31"
+    ],
+    "literal_equations": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          -1
+        ]
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -1
+        ]
+      ],
+      [
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          -1
+        ]
+      ],
+      [
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          -1
+        ]
+      ],
+      [
+        [
+          5,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      [
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "reduced_matrix": [
+      [
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "reduced_rhs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "reduced_smith": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      31
+    ],
+    "full_torsion_smith": null,
+    "pieces": [
+      {
+        "variable": 0,
+        "ports": 6,
+        "triangles": 402
+      },
+      {
+        "variable": 1,
+        "ports": 2,
+        "triangles": 118
+      },
+      {
+        "variable": 2,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 3,
+        "ports": 2,
+        "triangles": 118
+      },
+      {
+        "variable": 4,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 5,
+        "ports": 2,
+        "triangles": 118
+      },
+      {
+        "variable": 6,
+        "ports": 3,
+        "triangles": 189
+      }
+    ],
+    "checked": "exact unit margins, injective triangle map, only intended edge merges, Q column independence"
+  },
+  {
+    "grid": [
+      112,
+      322,
+      210
+    ],
+    "counts": [
+      644,
+      1974,
+      1323
+    ],
+    "denominator": 97,
+    "rank_Q": 1323,
+    "dimension": 0,
+    "rank_at_denominator": 1322,
+    "max_line_degrees": [
+      3,
+      3,
+      3
+    ],
+    "variable_values": [
+      "1/97",
+      "2/97",
+      "3/97",
+      "6/97",
+      "12/97",
+      "24/97",
+      "48/97"
+    ],
+    "literal_equations": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          -1
+        ]
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -1
+        ]
+      ],
+      [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          -1
+        ]
+      ],
+      [
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          -1
+        ]
+      ],
+      [
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      [
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "reduced_matrix": [
+      [
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "reduced_rhs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "reduced_smith": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      97
+    ],
+    "full_torsion_smith": null,
+    "pieces": [
+      {
+        "variable": 0,
+        "ports": 4,
+        "triangles": 260
+      },
+      {
+        "variable": 1,
+        "ports": 2,
+        "triangles": 118
+      },
+      {
+        "variable": 2,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 3,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 4,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 5,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 6,
+        "ports": 3,
+        "triangles": 189
+      }
+    ],
+    "checked": "exact unit margins, injective triangle map, only intended edge merges, Q column independence"
+  },
+  {
+    "grid": [
+      128,
+      368,
+      240
+    ],
+    "counts": [
+      736,
+      2256,
+      1512
+    ],
+    "denominator": 257,
+    "rank_Q": 1512,
+    "dimension": 0,
+    "rank_at_denominator": 1511,
+    "max_line_degrees": [
+      3,
+      3,
+      3
+    ],
+    "variable_values": [
+      "1/257",
+      "2/257",
+      "4/257",
+      "8/257",
+      "16/257",
+      "32/257",
+      "64/257",
+      "128/257"
+    ],
+    "literal_equations": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          -1
+        ]
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -1
+        ]
+      ],
+      [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          -1
+        ]
+      ],
+      [
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          -1
+        ]
+      ],
+      [
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      [
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          -1
+        ]
+      ],
+      [
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "reduced_matrix": [
+      [
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "reduced_rhs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "reduced_smith": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      257
+    ],
+    "full_torsion_smith": null,
+    "pieces": [
+      {
+        "variable": 0,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 1,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 2,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 3,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 4,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 5,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 6,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 7,
+        "ports": 3,
+        "triangles": 189
+      }
+    ],
+    "checked": "exact unit margins, injective triangle map, only intended edge merges, Q column independence"
+  },
+  {
+    "grid": [
+      256,
+      736,
+      480
+    ],
+    "counts": [
+      1472,
+      4512,
+      3024
+    ],
+    "denominator": 65537,
+    "rank_Q": 3024,
+    "dimension": 0,
+    "rank_at_denominator": 3023,
+    "max_line_degrees": [
+      3,
+      3,
+      3
+    ],
+    "variable_values": [
+      "1/65537",
+      "2/65537",
+      "4/65537",
+      "8/65537",
+      "16/65537",
+      "32/65537",
+      "64/65537",
+      "128/65537",
+      "256/65537",
+      "512/65537",
+      "1024/65537",
+      "2048/65537",
+      "4096/65537",
+      "8192/65537",
+      "16384/65537",
+      "32768/65537"
+    ],
+    "literal_equations": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          -1
+        ]
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -1
+        ]
+      ],
+      [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          -1
+        ]
+      ],
+      [
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          -1
+        ]
+      ],
+      [
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      [
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          -1
+        ]
+      ],
+      [
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          -1
+        ]
+      ],
+      [
+        [
+          8,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          -1
+        ]
+      ],
+      [
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          -1
+        ]
+      ],
+      [
+        [
+          10,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          -1
+        ]
+      ],
+      [
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          -1
+        ]
+      ],
+      [
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          -1
+        ]
+      ],
+      [
+        [
+          13,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          -1
+        ]
+      ],
+      [
+        [
+          14,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          15,
+          -1
+        ]
+      ],
+      [
+        [
+          15,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "reduced_matrix": [
+      [
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "reduced_rhs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "reduced_smith": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      65537
+    ],
+    "full_torsion_smith": null,
+    "pieces": [
+      {
+        "variable": 0,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 1,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 2,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 3,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 4,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 5,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 6,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 7,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 8,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 9,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 10,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 11,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 12,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 13,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 14,
+        "ports": 3,
+        "triangles": 189
+      },
+      {
+        "variable": 15,
+        "ports": 3,
+        "triangles": 189
+      }
+    ],
+    "checked": "exact unit margins, injective triangle map, only intended edge merges, Q column independence"
+  }
+]

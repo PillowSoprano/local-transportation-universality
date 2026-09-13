@@ -1,0 +1,13 @@
+{
+  "authors": [
+    "Sergey Vladimirov",
+    "Anna Taranenko",
+    "Denis Krotov"
+  ],
+  "source": "https://zenodo.org/records/14854809",
+  "file_url": "https://zenodo.org/records/14854809/files/vertices444.txt",
+  "bytes": 45541,
+  "catalog_ids": "one-based line numbers in the published text file",
+  "derivatives": "Exact rank, Smith form, support degree, and fractional-core calculations by the accompanying scripts.",
+  "title": "Vertices of the Birkhoff polytope of 3-dimensional matrices of order 4"
+}

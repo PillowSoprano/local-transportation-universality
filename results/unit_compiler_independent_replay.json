@@ -1,0 +1,158 @@
+[
+  {
+    "file": "unit_torsion_11.json",
+    "m": 11,
+    "triangles": 756,
+    "rank_Q": 756,
+    "actual_two_line_components": 4,
+    "actual_reduced_rows": 4,
+    "actual_torsion_smith": [
+      11
+    ],
+    "all_margins_one": true,
+    "result": "PASS"
+  },
+  {
+    "file": "unit_torsion_13.json",
+    "m": 13,
+    "triangles": 756,
+    "rank_Q": 756,
+    "actual_two_line_components": 4,
+    "actual_reduced_rows": 4,
+    "actual_torsion_smith": [
+      13
+    ],
+    "all_margins_one": true,
+    "result": "PASS"
+  },
+  {
+    "file": "unit_torsion_2.json",
+    "m": 2,
+    "triangles": 118,
+    "rank_Q": 118,
+    "actual_two_line_components": 1,
+    "actual_reduced_rows": 1,
+    "actual_torsion_smith": [
+      2
+    ],
+    "all_margins_one": true,
+    "result": "PASS"
+  },
+  {
+    "file": "unit_torsion_257.json",
+    "m": 257,
+    "triangles": 1512,
+    "rank_Q": 1512,
+    "actual_two_line_components": 8,
+    "actual_reduced_rows": 8,
+    "actual_torsion_smith": [
+      257
+    ],
+    "all_margins_one": true,
+    "result": "PASS"
+  },
+  {
+    "file": "unit_torsion_3.json",
+    "m": 3,
+    "triangles": 189,
+    "rank_Q": 189,
+    "actual_two_line_components": 1,
+    "actual_reduced_rows": 1,
+    "actual_torsion_smith": [
+      3
+    ],
+    "all_margins_one": true,
+    "result": "PASS"
+  },
+  {
+    "file": "unit_torsion_31.json",
+    "m": 31,
+    "triangles": 1323,
+    "rank_Q": 1323,
+    "actual_two_line_components": 7,
+    "actual_reduced_rows": 7,
+    "actual_torsion_smith": [
+      31
+    ],
+    "all_margins_one": true,
+    "result": "PASS"
+  },
+  {
+    "file": "unit_torsion_4.json",
+    "m": 4,
+    "triangles": 307,
+    "rank_Q": 307,
+    "actual_two_line_components": 2,
+    "actual_reduced_rows": 3,
+    "actual_torsion_smith": [
+      4
+    ],
+    "all_margins_one": true,
+    "result": "PASS"
+  },
+  {
+    "file": "unit_torsion_5.json",
+    "m": 5,
+    "triangles": 378,
+    "rank_Q": 378,
+    "actual_two_line_components": 2,
+    "actual_reduced_rows": 2,
+    "actual_torsion_smith": [
+      5
+    ],
+    "all_margins_one": true,
+    "result": "PASS"
+  },
+  {
+    "file": "unit_torsion_65537.json",
+    "m": 65537,
+    "triangles": 3024,
+    "rank_Q": 3024,
+    "actual_two_line_components": 16,
+    "actual_reduced_rows": 16,
+    "actual_torsion_smith": [
+      65537
+    ],
+    "all_margins_one": true,
+    "result": "PASS"
+  },
+  {
+    "file": "unit_torsion_7.json",
+    "m": 7,
+    "triangles": 567,
+    "rank_Q": 567,
+    "actual_two_line_components": 3,
+    "actual_reduced_rows": 3,
+    "actual_torsion_smith": [
+      7
+    ],
+    "all_margins_one": true,
+    "result": "PASS"
+  },
+  {
+    "file": "unit_torsion_8.json",
+    "m": 8,
+    "triangles": 496,
+    "rank_Q": 496,
+    "actual_two_line_components": 3,
+    "actual_reduced_rows": 4,
+    "actual_torsion_smith": [
+      8
+    ],
+    "all_margins_one": true,
+    "result": "PASS"
+  },
+  {
+    "file": "unit_torsion_97.json",
+    "m": 97,
+    "triangles": 1323,
+    "rank_Q": 1323,
+    "actual_two_line_components": 7,
+    "actual_reduced_rows": 7,
+    "actual_torsion_smith": [
+      97
+    ],
+    "all_margins_one": true,
+    "result": "PASS"
+  }
+]
