@@ -1,0 +1,66 @@
+[
+  {
+    "name": "four",
+    "format": [
+      3,
+      48,
+      36
+    ],
+    "allowed_cells": 216,
+    "line_bounds": [
+      3,
+      2,
+      2
+    ],
+    "line_sum_values": {
+      "IV": [
+        0,
+        1,
+        2
+      ],
+      "IE_VE": [
+        0,
+        1
+      ]
+    },
+    "witness_values": [
+      "1/3",
+      "2/3"
+    ],
+    "dimension": 0,
+    "satisfying_assignments": 0,
+    "integer_points_checked": 0
+  },
+  {
+    "name": "satisfiable",
+    "format": [
+      3,
+      24,
+      18
+    ],
+    "allowed_cells": 108,
+    "line_bounds": [
+      3,
+      2,
+      2
+    ],
+    "line_sum_values": {
+      "IV": [
+        0,
+        1,
+        2
+      ],
+      "IE_VE": [
+        0,
+        1
+      ]
+    },
+    "witness_values": [
+      "1/3",
+      "2/3"
+    ],
+    "dimension": 3,
+    "satisfying_assignments": 5,
+    "integer_points_checked": 5
+  }
+]

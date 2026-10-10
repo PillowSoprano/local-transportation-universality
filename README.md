@@ -1,6 +1,6 @@
-# Local universality: code and exact certificates
+# A sharp local threshold: code and exact certificates
 
-Code and exact certificates for **Local universality in three-way transportation polytopes**, by **Xiyao Yu**, Nanyang Technological University, Singapore.
+Code and exact certificates for **A sharp local threshold for integer feasibility in three-way transportation polytopes**, by **Xiyao Yu**, Nanyang Technological University, Singapore.
 
 [ORCID](https://orcid.org/0009-0006-2673-5269) · [GitHub](https://github.com/PillowSoprano)
 
@@ -11,6 +11,7 @@ Python 3.10+ standard library suffices. Run commands from this directory.
 ```bash
 python3 code/verify_klein.py
 python3 code/replay_unit_compiler.py
+python3 code/verify_slim_hardness.py
 ```
 
 The first command verifies the 11-vertex, 22-triangle Klein-bottle example.
@@ -18,6 +19,12 @@ The second reads the arrays directly, rebuilds all pair rows, checks exact unit
 margins and Q rank, then eliminates actual two-entry rows over the integers and
 computes the reduced Smith form. It also verifies all full-array completions.
 It does not import the construction code.
+
+The third command checks the slim arrays for Theorem 1.3: line sums in {0,1,2},
+line bounds (3,2,2), the witness with values 1/3 and 2/3, the dimension of each
+polytope, and the integer points obtained from satisfying assignments. The
+four-equation instance of Section 3.3 gives a single point of format 3x48x36
+with no integer point.
 
 ## Regenerate the construction and polygon examples
 
@@ -28,14 +35,20 @@ python3 code/complete_unit_vertex.py data/unit_torsion_97.json
 python3 code/complete_unit_vertex.py data/unit_compiler_pentagon.json --output data/full_unit_pentagon.json
 python3 code/complete_unit_vertex.py data/taranenko/fractional_core_3.json --output data/full_unit_core_3.json
 python3 code/replay_unit_compiler.py
+python3 code/construct_slim_hardness.py
+python3 code/construct_slim_hardness.py --clauses "[[0,1,2],[2,3,4]]" --name custom
 ```
 
 The binary-family certificates cover twelve denominators through 65537.
 The full completion in that family was computed for m=97, with order 644.
 For m=65537, the partial array was computed and verified; the predicted
 completion order 1472 was calculated, but that full completion was not run.
-Additional full certificates are the denominator-three core in order 8 and
-the pentagon face in order 494.
+The pentagon face in order 494 is a further full certificate.
+
+Additional examples not discussed in the manuscript: a denominator-three vertex
+of order 8, completed from a core in the order-four catalogue of Vladimirov,
+Taranenko, and Krotov (data/full_unit_core_3.json), and a denominator-two vertex
+of order 6 (data/full_unit_rp2.json).
 
 ## File formats
 
@@ -55,7 +68,7 @@ also specify the integer margins and their implied structural zeros.
 ## Sources
 
 The constructions and verification code accompany the manuscript
-Local universality in three-way transportation polytopes.
+A sharp local threshold for integer feasibility in three-way transportation polytopes.
 The completion uses the Latin-framework technique of Colbourn,
 https://doi.org/10.1016/0166-218X(84)90075-1, as explained in Bartlett's
 dissertation, Section 3.3:
